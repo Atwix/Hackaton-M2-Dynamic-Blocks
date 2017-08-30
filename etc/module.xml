@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author Atwix Team
+ * @copyright Copyright (c) 2017 Atwix (https://www.atwix.com/)
+ * @package Atwix_Visists
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Atwix_Visits" setup_version="1.0.0">
+        <sequence>
+        </sequence>
+    </module>
+</config>
