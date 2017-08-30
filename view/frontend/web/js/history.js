@@ -16,7 +16,7 @@ define(
             },
 
             initHistoryItems: function() {
-                this.historyItems = ["Hello", "World"];
+                this.historyItems(["Hello", "World"]);
             }
         });
     }

@@ -15,7 +15,7 @@
                     <argument name="jsLayout" xsi:type="array">
                         <item name="components" xsi:type="array">
                             <item name="visits_history" xsi:type="array">
-                                <item name="component" xsi:type="string">Atwix_Visits:js/history</item>
+                                <item name="component" xsi:type="string">Atwix_Visits/js/history</item>
                             </item>
                         </item>
                     </argument>
