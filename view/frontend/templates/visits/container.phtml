@@ -1,7 +1,11 @@
 <div data-block="visits-history">
     <div data-bind="scope: 'visits_history'" style="width: 100%; background-color: red;">
-        <!-- ko foreach: historyItems -->
-        <p data-bind="text: $data"></p>
+        <!-- ko if historyItems.length -->
+        <ol>
+            <!-- ko foreach: historyItems -->
+            <li><a data-bind="text: $data.title, attr: {href: $data.url, title: $data.title}"></a></li>
+            <!-- /ko -->
+        </ol>
         <!-- /ko -->
     </div>
 </div>
